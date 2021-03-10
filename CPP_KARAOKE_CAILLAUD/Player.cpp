@@ -4,7 +4,7 @@
 
 void Player::getName()
 {
-    std::cin >> name;
+    string name;
     std::cout << "Votre nom est" << name << std::endl;
     return 0;
 }
@@ -34,7 +34,22 @@ void Player::getScore5(int Score5)
     
 }
 
-void Player::getBestScore(int bestScore)
+void Player::getBestScore(int currentScore, int bestScore)
 {
-    std::cout << "Votre meilleur score est de" << bestScore << std::endl;
+    string currentScore;
+    string bestScore;
+    if (currentScore >= score2) || (currentScore >= score3) || (currentScore >= score4) || (currentScore >= score5)
+        currentScore = bestScore;
+        std::cout << "Votre meilleur score est de" << bestScore << std::endl;
+        bestScore = currentScore;
+    return 0;
+}
+
+void Player::getWorstScore(int currentScore, int worstScore)
+{
+    string currentScore;
+    string worstScore;
+    if (currentScore <= score2) || (currentScore <= score3) || (currentScore <= score4) || (currentScore <= score5)
+        currentScore = worstScore;
+        std::cout << "Votre pire score est de" << worstScore << std::endl;
 }
