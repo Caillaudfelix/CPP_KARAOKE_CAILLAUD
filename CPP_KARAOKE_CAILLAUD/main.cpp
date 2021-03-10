@@ -4,7 +4,6 @@
 using namespace std;
 
 int main(){
-    Player ("Kid")
     Player.getName;
     Player.getScore1;
     Player.getScore2;
