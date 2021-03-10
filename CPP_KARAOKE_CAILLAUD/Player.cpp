@@ -14,7 +14,8 @@ void Player::getScore1()
 {
     int score1;
     score1 = 67;
-    std::cout << "Score 1 : " << a << std::endl;
+    std::cout << "Score 1 : " << score1 << std::endl;
+    currentScore = score1;
     return 0;
 }
 

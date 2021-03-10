@@ -1,0 +1,3 @@
+Question C :
+
+On pourrait créer une classe "Chanson" qui regrouperait ces dernières ; de là, la classe "Player" pourra interagir avec (en la supprimant, en modifiant sa valeur comme par exemple "currentSong = song1"...).
